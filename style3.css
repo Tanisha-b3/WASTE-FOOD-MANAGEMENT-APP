@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5c4cb ;
+    height: 40px; 
+    color: black;
+    padding: 10px;
+}
+
+header h1{
+
+font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    color: red;
+    float: left;
+}
+nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+}
+nav a :hover{
+    background-color: #f5c4cb;
+}
+
+section#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-content {
+   background-color:  papayawhip;
+    border: solid;
+    float: right;
+    width: 600px;
+    margin-right: 150px;
+    padding-bottom: 20px;
+}
+
+.contact-content h2 {
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    background-color: papayawhip;
+    border: unset;
+    border: none;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+#contact{
+    height: 500px;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contact-us
+{ background-color: #E97451;
+    font-size: 20px;
+    float: left;
+    border-style: solid;
+    text-align: center;
+    margin-top: 40px;
+}
+.foodi
+{
+  margin: 20px;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.foodi img
+{
+  height: 400px;
+  width: 700px;
+  margin-left: 20px;
+margin-top: 20px;
+}
+.foodi img:hover
+{
+background-color: #f2f2f2;
+}

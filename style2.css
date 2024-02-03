@@ -1,0 +1,92 @@
+•	{
+    Box-sizing: border-box;
+  }
+         .color{
+          Background-color:#FADCD6;
+          Width: 100%;
+          Height: 500px;
+          Padding: 40px 60px;
+          Display: block;
+         }
+         .button{
+          Color: black;
+          Font-size: 16px;
+          Cursor:pointer;
+          Text-decoration:none;
+          Font-family: Arial, Helvetica, sans-serif;
+          }
+          .column {
+           Float: left;
+           Width: 100%;
+           Padding:150px;
+           height:100px;
+           }
+  
+           .row:after {
+           Content: “”;
+           Display: table;
+           Clear: both;
+           }
+    Input[type=text], select {
+      Width: 90%;
+      Padding: 12px 20px;
+      Margin: 8px 0;
+      Display: block;
+      Border: 3px solid #ccc;
+      Border-radius: 4px;
+      Box-sizing: border-box;
+    }
+  
+    Input[type=submit] {
+      Width: 20%;
+      Background-color: #8b7e7e;
+      Color: white;
+      Padding: 14px 20px;
+      Margin: 8px 0;
+      Border: none;
+      Border-radius: 4px;
+      Cursor: pointer;
+    }
+  
+    Input[type=submit]:hover {
+      Background-color: #776a6a;
+    }
+  
+    div.container {
+      position: relative; /* Added position relative */
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping of elements */
+    }
+  
+    div.form-container {
+      flex: 1;
+      border-radius: 5px;
+      background-color: #F0EDED;
+      padding: 20px;
+      margin-right: 0px; /* Added margin for spacing */
+      width: 150%; /* Set the width to occupy 50% of the container */
+  
+    }
+  
+    div.image-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+      width: 60%;
+      background: #F0EDED;
+     }
+   
+     Img {
+       Border-radius: 8px;
+       Max-width: 100%;
+       Max-height: 100%;
+       Height:800px;
+     }
+     .photo{
+       Max-width: 100%;
+       Max-height: 100%;
+       Background-color: #C3A9A4;
+       Display:block;
+       Background-size: 100px 400px;
+     }

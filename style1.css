@@ -1,0 +1,109 @@
+body, h1, h2, h3, p, ul, li, form, input, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+    background-color: rgb(225, 133, 133);
+    color: black;
+    padding: 20px;
+    height:40px;
+
+}
+
+nav ul {
+    margin-top: -30px;
+    font-size: 20px;
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.my
+{
+    font-size: 20px;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    align-self: center;
+}
+
+#hero {
+    color: #000;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+#donate {
+    height: 500px;
+    padding: 20px;
+}
+
+.donate-content {
+    max-width: 500px;
+    margin: 0 50px;
+}
+
+.donate-content h2 {
+    margin-bottom: 10px;
+}
+.my1
+{
+    padding: 30px;
+    text-align: start;
+    align-self: flex-start
+    ;
+}
+
+.donate-content form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.donate-content form input,
+.donate-content form select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.donate-content form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.t
+{
+    height: 900px;
+    margin-top: -400px;
+    align-self: center;
+    margin-left: 800px;
+}
+.my1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
